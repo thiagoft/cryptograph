@@ -13,8 +13,8 @@ public class CryptographyTest
 {
 
     private Cryptography cryptography;
-    private final String decryptedPassword = "Thiago.F.T#1234";
-    private final String encryptedPassword = "j9b+bUkq32lE73qfHQApKw==";
+    private final String decryptedPassword = "thiagoft123";
+    private final String encryptedPassword = "B4OBW44AkxtBttuoQUdpGw==";
 
     @Before
     public void before() {

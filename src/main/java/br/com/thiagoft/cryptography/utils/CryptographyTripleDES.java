@@ -1,8 +1,5 @@
 package br.com.thiagoft.cryptography.utils;
 
-import sun.misc.BASE64Decoder;
-import sun.misc.BASE64Encoder;
-
 import javax.crypto.*;
 import javax.crypto.spec.DESedeKeySpec;
 import java.io.IOException;
@@ -11,6 +8,8 @@ import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 import java.security.spec.InvalidKeySpecException;
 import java.security.spec.KeySpec;
+
+import java.util.Base64;
 
 public class CryptographyTripleDES {
 
@@ -65,8 +64,7 @@ public class CryptographyTripleDES {
     UnsupportedEncodingException {
         cipher.init( Cipher.ENCRYPT_MODE, secretKey );
         byte[] cipherText = cipher.doFinal( value.getBytes( "UTF-8" ) );
-        BASE64Encoder encoder = new BASE64Encoder();
-        return encoder.encode( cipherText );
+        return Base64.getEncoder().encodeToString(cipherText);
     }
 
  /**
@@ -81,8 +79,7 @@ public class CryptographyTripleDES {
     public String decrypt( String value ) throws InvalidKeyException, IllegalBlockSizeException, BadPaddingException,
     IOException {
         cipher.init( Cipher.DECRYPT_MODE, secretKey );
-        BASE64Decoder dec = new BASE64Decoder();
-        byte[] decipherText = cipher.doFinal( dec.decodeBuffer( value ) );
+        byte[] decipherText = cipher.doFinal(Base64.getUrlDecoder().decode(value));
         return new String( decipherText );
     }
 

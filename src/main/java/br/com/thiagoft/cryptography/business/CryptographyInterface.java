@@ -13,10 +13,10 @@ public class CryptographyInterface implements Interface{
     }
 
     public void execute() {
-//        if (arguments.length > 1) {
-//            new HelpInterface().execute();
-//            return;
-//        }
+        if (arguments.length > 1) {
+            new HelpInterface().execute();
+            return;
+        }
 
         try {
             System.out.println(cryptography.encrypt(System.getProperty("e")));
