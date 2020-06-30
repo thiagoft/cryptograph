@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5ca7d52-fb70-4161-a755-7536ad27a18a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cryptography.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cryptography.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/thiagoft/cryptography/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/thiagoft/cryptography/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/thiagoft/cryptography/business/CryptographyInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/thiagoft/cryptography/business/CryptographyInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/thiagoft/cryptography/utils/CryptographyTripleDES.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/thiagoft/cryptography/utils/CryptographyTripleDES.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/thiagoft/cryptography/CryptographyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/thiagoft/cryptography/CryptographyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/thiagoft/cryptography/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/thiagoft/cryptography/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/thiagoft/cryptography/business/Cryptography.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/thiagoft/cryptography/business/Cryptography.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/thiagoft/cryptography/business/CryptographyInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/thiagoft/cryptography/business/CryptographyInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/thiagoft/cryptography/business/HelpInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/thiagoft/cryptography/business/HelpInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/thiagoft/cryptography/business/Interface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/thiagoft/cryptography/business/Interface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/thiagoft/cryptography/utils/CryptographyTripleDES.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/thiagoft/cryptography/utils/CryptographyTripleDES.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cryptography-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/cryptography-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.thiagoft.cryptography.CryptographyTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.thiagoft.cryptography.CryptographyTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.thiagoft.cryptography.CryptographyTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/br.com.thiagoft.cryptography.CryptographyTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/thiagoft/cryptography/CryptographyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/thiagoft/cryptography/CryptographyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/thiagoft/cryptography/InterfaceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/thiagoft/cryptography/InterfaceTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="a5ca7d52-fb70-4161-a755-7536ad27a18a" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -216,7 +193,7 @@
       <workItem from="1494335924110" duration="7627000" />
       <workItem from="1573157531592" duration="876000" />
       <workItem from="1573212460698" duration="453000" />
-      <workItem from="1593088968587" duration="1835000" />
+      <workItem from="1593088968587" duration="2077000" />
     </task>
     <servers />
   </component>
